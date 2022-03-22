@@ -1,0 +1,211 @@
+body {
+    background: radial-gradient(
+        39.07% 39.07% at 50% 60%,
+        #2f2d41 0%,
+        #08080c 100%
+    );
+    overflow: hidden;
+    margin: 0;
+}
+
+/*====================
+website logo
+====================*/
+
+.logo-spot {
+    position: relative;
+    width: max-content;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10.5vh;
+}
+
+.logo {
+    position: relative;
+    color: #f6fbba;
+    font-size: 150px;
+    font-weight: 600;
+    font-family: Helvetica;
+}
+
+.logo-underline {
+    position: relative;
+    background: #f6fbba;
+    height: 16.8px;
+    width: 578px;
+    top: -121px;
+    left: 400px;
+}
+
+/*====================
+Projects text
+====================*/
+
+.projects-text {
+    position: relative;
+    width: max-content;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -145px;
+}
+
+.projects {
+    position: relative;
+    color: #f6fbba;
+    font-size: 55px;
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+.project-underline {
+    position: relative;
+    background: #f6fbba;
+    height: 5px;
+    width: 210px;
+    top: -50px;
+    border-radius: 3px;
+}
+
+/*====================
+Project slots
+====================*/
+
+.carousel {
+    position: relative;
+    width: max-content;
+    top: -184px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carousel-button {
+    position: absolute;
+    background: none;
+    color: white;
+    font-size: 50px;
+    border: none;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 15px;
+    cursor: pointer;
+    padding-bottom: 9px;
+}
+
+.carousel-button:hover {
+    background-color: rgb(143, 143, 143, 0.2);
+}
+
+.prev {
+    left: -25px;
+}
+
+.next {
+    right: -25px;
+}
+
+.projects-slots {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: max-content;
+}
+
+.container {
+    position: relative;
+    height: 376px;
+    width: 300px;
+    border-radius: 9%;
+    margin: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #707070;
+    overflow: hidden;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-box {
+    position: absolute;
+    height: 178.5px;
+    width: 300px;
+    background: linear-gradient(hsl(0 0% 0% / 0), hsl(0 0% 0% / 1));
+    bottom: -130px;
+    transition: transform 0.3s cubic-bezier(0, 0.9, 1, 1);
+}
+
+.container:hover .info-box {
+    transform: translateY(-125px);
+}
+
+.name {
+    position: relative;
+    font-size: 32px;
+    font-family: Tahoma;
+    top: -25px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.name:hover {
+    text-decoration: underline;
+}
+
+.description {
+    position: relative;
+    top: -35px;
+    margin: 20px;
+    color: rgb(203, 203, 203);
+    text-align: center;
+}
+
+.date {
+    position: relative;
+    bottom: 30px;
+    color: rgb(203, 203, 203);
+    text-align: center;
+}
+/*====================
+Project slots--
+====================*/
+
+.circles {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -175px;
+}
+
+.circles div {
+    background: #ffffff;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.box {
+    position: relative;
+    background: #f6fbba;
+    height: 47px;
+    width: 170px;
+    top: -195px;
+    border-radius: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.explore {
+    position: relative;
+    color: #1f1e2c;
+    font-family: Helvetica;
+    font-size: 33px;
+    text-align: center;
+    top: 6px;
+}
